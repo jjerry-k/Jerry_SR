@@ -19,7 +19,7 @@ def img_read(path, size):
     
     img = cv2.resize(img, (size,size))
 
-    return imgekdr
+    return img
 
 def load_base_model(backbone = 'vgg', **params):
     '''
